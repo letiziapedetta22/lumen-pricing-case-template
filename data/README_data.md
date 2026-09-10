@@ -50,4 +50,4 @@ for a number that isn't there.
   required, but it's there if your team wants to push further.
 - **Some files contain name/email-style fields** (`customer_survey.csv`). Take
   a moment as a team to decide how you'll handle that in your build and your
-  repo — it's worth a line in `PROMPTS.md`.
+  repo — it's worth a line in `prompts/<student-id>/session-*.md`.
