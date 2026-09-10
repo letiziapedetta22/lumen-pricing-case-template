@@ -1,6 +1,6 @@
 # LUMEN Germany — Analysis Note (team thesis)
 
-*Commit this file as `docs/ANALYSIS.md`. It is the context Codex reads before building anything. Every number below was computed from the files in `data/` (deduplicated) and is reproduced in `docs/LUMEN_Germany_Pricing_Model.xlsx`.*
+*Commit this file as `ANALYSIS.md`. It is the context Codex reads before building anything. Every number below was computed from the files in `data/` (deduplicated) and is reproduced in `LUMEN_Germany_Pricing_Model.xlsx`.*
 
 ## The question (from the brief)
 
@@ -43,16 +43,16 @@ Months to recover CAC = (€44 ÷ contribution per can) ÷ purchases per month o
 | €2.19 | 5.0 | 6.2 | 13.7 |
 | €2.59 | 3.8 | 4.9 | 10.1 |
 
-The CFO's "not eighteen months" ceiling is breached by exactly one combination: the obvious one, Retail at €1.79.
+The working 18-month payback threshold, inferred from Freya’s Slack message, is an assumption rather than a brief requirement. Under the stated assumptions, Retail at €1.79 is the only combination above it.
 
 ## The two options
 
-**Option A — Premium first.** €2.19, DTC Online + Gym & Office, Berlin + Munich (33% of market, 9% CAGR vs 7%, Wellness concentration), launch April–May. Retail in year 2 from a position of strength.
+**Option A — Premium first.** €2.19, DTC Online + Gym & Office, Berlin + Munich (33% of market, 9% CAGR vs 7%, Wellness concentration), launch April–May 2027. Retail in year 2 from a position of strength.
 - Weighted contribution €1.15/can · blended payback ~6 months
 - Reaches 54% of survey respondents; 47% reach AND accept the price
 - Gives up: 50% of home-market volume (retail), the student segment, fast scale
 
-**Option B — Volume first.** €1.79, Retail + DTC nationwide, spring.
+**Option B — Volume first.** €1.79, Retail + DTC, Berlin + Munich in year 1, April–May 2027.
 - Weighted contribution €0.54/can · blended payback ~13 months
 - Reaches 75% of respondents; 74% reach AND accept
 - Gives up: €0.60/can of margin, the premium positioning (anchored next to PulsUp promos, moving up later is very hard), and the CFO's comfort on retail-only payback
@@ -61,7 +61,7 @@ Year-1 units (Berlin + Munich, per-capita transfer from NL/DK/SE with a 0.8 comp
 
 ## Timing
 
-German seasonality index (`seasonality_and_weather.csv`) and LUMEN's own home-market monthly pattern correlate at 0.99 — the one transfer assumption in this case that IS supported by data. Index rises from 98 (April) to 138 (July). Competitor promos cluster in February and June–July. Launch in April–May so distribution is in place before peak demand and outside both promo clusters.
+The monthly demand pattern in Germany matches LUMEN's home markets (r≈0.99), comparing `seasonality_and_weather.csv` with the home-market monthly sales pattern. This does not validate German demand levels or weather causality. Index rises from 98 (April) to 138 (July). Competitor promos cluster in February and June–July. Launch in April–May 2027 so distribution is in place before peak demand and outside both promo clusters.
 
 ## Where the quotes and the survey disagree (qual/quant reconciler)
 
@@ -81,3 +81,17 @@ German seasonality index (`seasonality_and_weather.csv`) and LUMEN's own home-ma
 ## Recommendation the tool should let Freya reach herself
 
 Start from the customer, not the price. Pick a segment → the tool shows the price it accepts, the channel it shops in, the margin LUMEN keeps, the payback, and what you give up. Then compare A vs B side by side with the assumptions exposed.
+
+## Confirmed working definitions — apply to future tasks
+
+- Hard acceptance (price below the too-expensive threshold) drives thresholds and recommendations; comfort (below the expensive threshold) is shown alongside it. Label both as "stated price acceptance (survey)" and distinguish hard from comfort. Neither is a purchase rate.
+- Survey purchases/month is category purchase frequency, an upper bound for LUMEN purchase frequency. Payback estimates based on it are optimistic, not guaranteed.
+- Use blended €44 home-market CAC because German channel-level CAC is unavailable; label this assumption explicitly.
+- Both options cover Berlin + Munich in year 1. Channel weights are the home-market unit mix of the selected channels, calculated from deduplicated historical sales and normalised across those channels.
+- Reach = Σ segment share × share of that segment preferring a selected channel. Reach is not sales or conversion.
+- Marketing budget = annualised home-market spend × (Berlin + Munich population ÷ home-market population) × comparability.
+- Comparability 0.8 and ramp 0.6 are assumptions and must remain visible, editable inputs.
+- Launch window: April–May 2027.
+- Report the revenue discrepancy, LTV:CAC gap, duplicates and absence of a clear spike as found; do not resolve them or invent explanations.
+- There is no German sales data. Customer survey name/email columns must never be loaded into the browser.
+- ANALYSIS.md and LUMEN_Germany_Pricing_Model.xlsx live at the repository root. Session logs use prompts/<student-id>/session-*.md. The case’s "Confidential" label is fiction; the repository stays public.
