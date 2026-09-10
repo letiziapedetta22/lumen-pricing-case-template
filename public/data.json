@@ -1,0 +1,1674 @@
+{
+  "candidate_prices_eur": [
+    1.79,
+    2.19,
+    2.59
+  ],
+  "customer": {
+    "respondent_count": 420,
+    "segments": [
+      {
+        "segment": "Students & Budget-Conscious",
+        "respondent_share": 0.321,
+        "mean_purchase_frequency_per_month": 5.1,
+        "mean_monthly_beverage_spend_eur": 17.24,
+        "mean_price_sensitivity_1_10": 7.93,
+        "mean_lumen_purchase_intent_1_10": 5.5,
+        "preferred_channel_shares": {
+          "Gym & Office": 0.237,
+          "Retail/Grocery": 0.541,
+          "DTC Online": 0.222
+        }
+      },
+      {
+        "segment": "Fitness & Gym-Goers",
+        "respondent_share": 0.198,
+        "mean_purchase_frequency_per_month": 6.23,
+        "mean_monthly_beverage_spend_eur": 20.11,
+        "mean_price_sensitivity_1_10": 5.44,
+        "mean_lumen_purchase_intent_1_10": 7.97,
+        "preferred_channel_shares": {
+          "Gym & Office": 0.446,
+          "DTC Online": 0.169,
+          "Retail/Grocery": 0.386
+        }
+      },
+      {
+        "segment": "On-the-go Commuters",
+        "respondent_share": 0.214,
+        "mean_purchase_frequency_per_month": 5.87,
+        "mean_monthly_beverage_spend_eur": 19.97,
+        "mean_price_sensitivity_1_10": 5.98,
+        "mean_lumen_purchase_intent_1_10": 6.71,
+        "preferred_channel_shares": {
+          "Gym & Office": 0.233,
+          "Retail/Grocery": 0.6,
+          "DTC Online": 0.167
+        }
+      },
+      {
+        "segment": "Urban Wellness Professionals",
+        "respondent_share": 0.267,
+        "mean_purchase_frequency_per_month": 7.56,
+        "mean_monthly_beverage_spend_eur": 21.73,
+        "mean_price_sensitivity_1_10": 3.63,
+        "mean_lumen_purchase_intent_1_10": 9.12,
+        "preferred_channel_shares": {
+          "Gym & Office": 0.143,
+          "Retail/Grocery": 0.321,
+          "DTC Online": 0.536
+        }
+      }
+    ],
+    "cities": [
+      {
+        "city": "Hamburg",
+        "respondent_share": 0.114,
+        "mean_lumen_purchase_intent_1_10": 7.52
+      },
+      {
+        "city": "Cologne",
+        "respondent_share": 0.107,
+        "mean_lumen_purchase_intent_1_10": 7.04
+      },
+      {
+        "city": "Other Germany",
+        "respondent_share": 0.374,
+        "mean_lumen_purchase_intent_1_10": 7.05
+      },
+      {
+        "city": "Berlin",
+        "respondent_share": 0.193,
+        "mean_lumen_purchase_intent_1_10": 7.4
+      },
+      {
+        "city": "Frankfurt",
+        "respondent_share": 0.076,
+        "mean_lumen_purchase_intent_1_10": 7.18
+      },
+      {
+        "city": "Munich",
+        "respondent_share": 0.136,
+        "mean_lumen_purchase_intent_1_10": 7.3
+      }
+    ]
+  },
+  "price_sensitivity": {
+    "by_segment": [
+      {
+        "segment": "Urban Wellness Professionals",
+        "survey_share": 0.247,
+        "prices": [
+          {
+            "price_eur": 1.79,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 1
+          },
+          {
+            "price_eur": 2.19,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 0.986
+          },
+          {
+            "price_eur": 2.59,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 0.757
+          }
+        ]
+      },
+      {
+        "segment": "On-the-go Commuters",
+        "survey_share": 0.213,
+        "prices": [
+          {
+            "price_eur": 1.79,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 0.891
+          },
+          {
+            "price_eur": 2.19,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 0.344
+          },
+          {
+            "price_eur": 2.59,
+            "hard_acceptance": 0.719,
+            "comfort_acceptance": 0
+          }
+        ]
+      },
+      {
+        "segment": "Fitness & Gym-Goers",
+        "survey_share": 0.21,
+        "prices": [
+          {
+            "price_eur": 1.79,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 1
+          },
+          {
+            "price_eur": 2.19,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 0.905
+          },
+          {
+            "price_eur": 2.59,
+            "hard_acceptance": 1,
+            "comfort_acceptance": 0.317
+          }
+        ]
+      },
+      {
+        "segment": "Students & Budget-Conscious",
+        "survey_share": 0.33,
+        "prices": [
+          {
+            "price_eur": 1.79,
+            "hard_acceptance": 0.98,
+            "comfort_acceptance": 0.374
+          },
+          {
+            "price_eur": 2.19,
+            "hard_acceptance": 0.525,
+            "comfort_acceptance": 0.03
+          },
+          {
+            "price_eur": 2.59,
+            "hard_acceptance": 0.03,
+            "comfort_acceptance": 0
+          }
+        ]
+      }
+    ],
+    "blended": [
+      {
+        "price_eur": 1.79,
+        "hard_acceptance": 0.993,
+        "comfort_acceptance": 0.77
+      },
+      {
+        "price_eur": 2.19,
+        "hard_acceptance": 0.843,
+        "comfort_acceptance": 0.517
+      },
+      {
+        "price_eur": 2.59,
+        "hard_acceptance": 0.62,
+        "comfort_acceptance": 0.254
+      }
+    ]
+  },
+  "channel_economics": {
+    "blended_cac_eur": 44.01,
+    "cogs_per_can_eur": 0.62,
+    "channels": [
+      {
+        "channel": "DTC Online",
+        "retailer_margin_pct": 0,
+        "distributor_cut_pct": 0,
+        "payment_processing_pct": 0.029,
+        "fulfillment_cost_eur": 0.35,
+        "prices": [
+          {
+            "price_eur": 1.79,
+            "net_price_to_lumen_eur": 1.39,
+            "unit_contribution_eur": 0.77,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 11.23
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 9.2
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 9.76
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 7.58
+              }
+            ]
+          },
+          {
+            "price_eur": 2.19,
+            "net_price_to_lumen_eur": 1.78,
+            "unit_contribution_eur": 1.16,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 7.46
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 6.11
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 6.48
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 5.03
+              }
+            ]
+          },
+          {
+            "price_eur": 2.59,
+            "net_price_to_lumen_eur": 2.16,
+            "unit_contribution_eur": 1.54,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 5.59
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 4.57
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 4.85
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 3.77
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Retail/Grocery",
+        "retailer_margin_pct": 0.35,
+        "distributor_cut_pct": 0.08,
+        "payment_processing_pct": 0,
+        "fulfillment_cost_eur": 0,
+        "prices": [
+          {
+            "price_eur": 1.79,
+            "net_price_to_lumen_eur": 1.02,
+            "unit_contribution_eur": 0.4,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 21.56
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 17.65
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 18.73
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 14.54
+              }
+            ]
+          },
+          {
+            "price_eur": 2.19,
+            "net_price_to_lumen_eur": 1.25,
+            "unit_contribution_eur": 0.63,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 13.73
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 11.24
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 11.93
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 9.27
+              }
+            ]
+          },
+          {
+            "price_eur": 2.59,
+            "net_price_to_lumen_eur": 1.48,
+            "unit_contribution_eur": 0.86,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 10.08
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 8.25
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 8.76
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 6.8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Gym & Office",
+        "retailer_margin_pct": 0.2,
+        "distributor_cut_pct": 0,
+        "payment_processing_pct": 0,
+        "fulfillment_cost_eur": 0,
+        "prices": [
+          {
+            "price_eur": 1.79,
+            "net_price_to_lumen_eur": 1.43,
+            "unit_contribution_eur": 0.81,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 10.63
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 8.7
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 9.23
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 7.17
+              }
+            ]
+          },
+          {
+            "price_eur": 2.19,
+            "net_price_to_lumen_eur": 1.75,
+            "unit_contribution_eur": 1.13,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 7.62
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 6.24
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 6.62
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 5.14
+              }
+            ]
+          },
+          {
+            "price_eur": 2.59,
+            "net_price_to_lumen_eur": 2.07,
+            "unit_contribution_eur": 1.45,
+            "payback_months_by_segment": [
+              {
+                "segment": "Students & Budget-Conscious",
+                "payback_months": 5.94
+              },
+              {
+                "segment": "Fitness & Gym-Goers",
+                "payback_months": 4.87
+              },
+              {
+                "segment": "On-the-go Commuters",
+                "payback_months": 5.16
+              },
+              {
+                "segment": "Urban Wellness Professionals",
+                "payback_months": 4.01
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "home_market": {
+    "duplicate_rows_removed": 4,
+    "units_and_revenue_by_country": [
+      {
+        "country": "Netherlands",
+        "units_sold": 510636,
+        "revenue_eur": 689214.6
+      },
+      {
+        "country": "Denmark",
+        "units_sold": 305975,
+        "revenue_eur": 412553.39
+      },
+      {
+        "country": "Sweden",
+        "units_sold": 383232,
+        "revenue_eur": 518157.82
+      }
+    ],
+    "units_and_revenue_by_channel": [
+      {
+        "channel": "DTC Online",
+        "units_sold": 382381,
+        "revenue_eur": 516314.34
+      },
+      {
+        "channel": "Retail/Grocery",
+        "units_sold": 602748,
+        "revenue_eur": 813717.74
+      },
+      {
+        "channel": "Gym & Office",
+        "units_sold": 214714,
+        "revenue_eur": 289893.73
+      }
+    ],
+    "channel_unit_mix": [
+      {
+        "channel": "DTC Online",
+        "unit_share": 0.319
+      },
+      {
+        "channel": "Retail/Grocery",
+        "unit_share": 0.502
+      },
+      {
+        "channel": "Gym & Office",
+        "unit_share": 0.179
+      }
+    ],
+    "monthly_seasonality_index": [
+      {
+        "month": 1,
+        "mean_weekly_units": 1245.04,
+        "index_100_avg": 72.84
+      },
+      {
+        "month": 2,
+        "mean_weekly_units": 1308.4,
+        "index_100_avg": 76.55
+      },
+      {
+        "month": 3,
+        "mean_weekly_units": 1450.79,
+        "index_100_avg": 84.88
+      },
+      {
+        "month": 4,
+        "mean_weekly_units": 1678.31,
+        "index_100_avg": 98.19
+      },
+      {
+        "month": 5,
+        "mean_weekly_units": 2064.15,
+        "index_100_avg": 120.77
+      },
+      {
+        "month": 6,
+        "mean_weekly_units": 2329.03,
+        "index_100_avg": 136.27
+      },
+      {
+        "month": 7,
+        "mean_weekly_units": 2288.58,
+        "index_100_avg": 133.9
+      },
+      {
+        "month": 8,
+        "mean_weekly_units": 2045.97,
+        "index_100_avg": 119.71
+      },
+      {
+        "month": 9,
+        "mean_weekly_units": 1718.31,
+        "index_100_avg": 100.53
+      },
+      {
+        "month": 10,
+        "mean_weekly_units": 1542.17,
+        "index_100_avg": 90.23
+      },
+      {
+        "month": 11,
+        "mean_weekly_units": 1430.89,
+        "index_100_avg": 83.72
+      },
+      {
+        "month": 12,
+        "mean_weekly_units": 1465.69,
+        "index_100_avg": 85.75
+      }
+    ]
+  },
+  "source_data": {
+    "market_context": [
+      {
+        "dimension_type": "subcategory",
+        "name": "Energy / focus",
+        "metric": "market_size_eur",
+        "value": 1943857000,
+        "unit": "EUR",
+        "year": 2022,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Energy / focus",
+        "metric": "market_size_eur",
+        "value": 2079926990,
+        "unit": "EUR",
+        "year": 2023,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Energy / focus",
+        "metric": "market_size_eur",
+        "value": 2225521880,
+        "unit": "EUR",
+        "year": 2024,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Energy / focus",
+        "metric": "market_size_eur",
+        "value": 2381308411,
+        "unit": "EUR",
+        "year": 2025,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Energy / focus",
+        "metric": "market_size_eur",
+        "value": 2548000000,
+        "unit": "EUR",
+        "year": 2026,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Energy / focus",
+        "metric": "market_size_eur",
+        "value": 2726360000,
+        "unit": "EUR",
+        "year": 2027,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Hydration",
+        "metric": "market_size_eur",
+        "value": 2152127393,
+        "unit": "EUR",
+        "year": 2022,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Hydration",
+        "metric": "market_size_eur",
+        "value": 2302776311,
+        "unit": "EUR",
+        "year": 2023,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Hydration",
+        "metric": "market_size_eur",
+        "value": 2463970652,
+        "unit": "EUR",
+        "year": 2024,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Hydration",
+        "metric": "market_size_eur",
+        "value": 2636448598,
+        "unit": "EUR",
+        "year": 2025,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Hydration",
+        "metric": "market_size_eur",
+        "value": 2821000000,
+        "unit": "EUR",
+        "year": 2026,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Hydration",
+        "metric": "market_size_eur",
+        "value": 3018470000,
+        "unit": "EUR",
+        "year": 2027,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Plant-based / adaptogenic",
+        "metric": "market_size_eur",
+        "value": 1666163143,
+        "unit": "EUR",
+        "year": 2022,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Plant-based / adaptogenic",
+        "metric": "market_size_eur",
+        "value": 1782794563,
+        "unit": "EUR",
+        "year": 2023,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Plant-based / adaptogenic",
+        "metric": "market_size_eur",
+        "value": 1907590183,
+        "unit": "EUR",
+        "year": 2024,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Plant-based / adaptogenic",
+        "metric": "market_size_eur",
+        "value": 2041121495,
+        "unit": "EUR",
+        "year": 2025,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Plant-based / adaptogenic",
+        "metric": "market_size_eur",
+        "value": 2184000000,
+        "unit": "EUR",
+        "year": 2026,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Plant-based / adaptogenic",
+        "metric": "market_size_eur",
+        "value": 2336880000,
+        "unit": "EUR",
+        "year": 2027,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Other functional",
+        "metric": "market_size_eur",
+        "value": 1180198893,
+        "unit": "EUR",
+        "year": 2022,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Other functional",
+        "metric": "market_size_eur",
+        "value": 1262812816,
+        "unit": "EUR",
+        "year": 2023,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Other functional",
+        "metric": "market_size_eur",
+        "value": 1351209713,
+        "unit": "EUR",
+        "year": 2024,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Other functional",
+        "metric": "market_size_eur",
+        "value": 1445794393,
+        "unit": "EUR",
+        "year": 2025,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Other functional",
+        "metric": "market_size_eur",
+        "value": 1547000000,
+        "unit": "EUR",
+        "year": 2026,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "subcategory",
+        "name": "Other functional",
+        "metric": "market_size_eur",
+        "value": 1655290000,
+        "unit": "EUR",
+        "year": 2027,
+        "notes": "Germany functional beverage market ~EUR9.1bn 2026, ~7% CAGR (Market Research Future / Fortune Business Insights)"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Berlin",
+        "metric": "population_share_of_market",
+        "value": 0.18,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Illustrative regional split used to size a phased city-by-city launch"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Berlin",
+        "metric": "regional_cagr",
+        "value": 0.09,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Berlin/Munich assumed slightly faster given urban wellness segment concentration"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Munich",
+        "metric": "population_share_of_market",
+        "value": 0.15,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Illustrative regional split used to size a phased city-by-city launch"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Munich",
+        "metric": "regional_cagr",
+        "value": 0.09,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Berlin/Munich assumed slightly faster given urban wellness segment concentration"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Hamburg",
+        "metric": "population_share_of_market",
+        "value": 0.1,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Illustrative regional split used to size a phased city-by-city launch"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Hamburg",
+        "metric": "regional_cagr",
+        "value": 0.07,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Berlin/Munich assumed slightly faster given urban wellness segment concentration"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Cologne",
+        "metric": "population_share_of_market",
+        "value": 0.09,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Illustrative regional split used to size a phased city-by-city launch"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Cologne",
+        "metric": "regional_cagr",
+        "value": 0.07,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Berlin/Munich assumed slightly faster given urban wellness segment concentration"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Frankfurt",
+        "metric": "population_share_of_market",
+        "value": 0.08,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Illustrative regional split used to size a phased city-by-city launch"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Frankfurt",
+        "metric": "regional_cagr",
+        "value": 0.07,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Berlin/Munich assumed slightly faster given urban wellness segment concentration"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Other Germany",
+        "metric": "population_share_of_market",
+        "value": 0.4,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Illustrative regional split used to size a phased city-by-city launch"
+      },
+      {
+        "dimension_type": "region",
+        "name": "Other Germany",
+        "metric": "regional_cagr",
+        "value": 0.07,
+        "unit": "ratio",
+        "year": 2026,
+        "notes": "Berlin/Munich assumed slightly faster given urban wellness segment concentration"
+      }
+    ],
+    "competitor_prices_by_channel": [
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "DTC Online",
+        "format": "Single can (330ml)",
+        "price_eur": 1.15,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "DTC Online",
+        "format": "4-pack",
+        "price_eur": 1.07,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "DTC Online",
+        "format": "12-pack subscription",
+        "price_eur": 0.98,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "Retail/Grocery",
+        "format": "Single can (330ml)",
+        "price_eur": 1.07,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "Retail/Grocery",
+        "format": "4-pack",
+        "price_eur": 1.06,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "Retail/Grocery",
+        "format": "12-pack subscription",
+        "price_eur": 0.96,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "Gym & Office",
+        "format": "Single can (330ml)",
+        "price_eur": 1.28,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "PulsUp",
+        "positioning": "Mass market",
+        "channel": "Gym & Office",
+        "format": "4-pack",
+        "price_eur": 1.18,
+        "marketing_spend_index_0_100": 100
+      },
+      {
+        "competitor": "Mate Libre",
+        "positioning": "Heritage / loyal niche",
+        "channel": "Retail/Grocery",
+        "format": "Single can (330ml)",
+        "price_eur": 1.59,
+        "marketing_spend_index_0_100": 40
+      },
+      {
+        "competitor": "Mate Libre",
+        "positioning": "Heritage / loyal niche",
+        "channel": "Retail/Grocery",
+        "format": "4-pack",
+        "price_eur": 1.5,
+        "marketing_spend_index_0_100": 40
+      },
+      {
+        "competitor": "Mate Libre",
+        "positioning": "Heritage / loyal niche",
+        "channel": "Retail/Grocery",
+        "format": "12-pack subscription",
+        "price_eur": 1.37,
+        "marketing_spend_index_0_100": 40
+      },
+      {
+        "competitor": "Mate Libre",
+        "positioning": "Heritage / loyal niche",
+        "channel": "Gym & Office",
+        "format": "Single can (330ml)",
+        "price_eur": 1.83,
+        "marketing_spend_index_0_100": 40
+      },
+      {
+        "competitor": "Mate Libre",
+        "positioning": "Heritage / loyal niche",
+        "channel": "Gym & Office",
+        "format": "4-pack",
+        "price_eur": 1.73,
+        "marketing_spend_index_0_100": 40
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "DTC Online",
+        "format": "Single can (330ml)",
+        "price_eur": 2.49,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "DTC Online",
+        "format": "4-pack",
+        "price_eur": 2.42,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "DTC Online",
+        "format": "12-pack subscription",
+        "price_eur": 2.19,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "Retail/Grocery",
+        "format": "Single can (330ml)",
+        "price_eur": 2.37,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "Retail/Grocery",
+        "format": "4-pack",
+        "price_eur": 2.3,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "Retail/Grocery",
+        "format": "12-pack subscription",
+        "price_eur": 2.1,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "Gym & Office",
+        "format": "Single can (330ml)",
+        "price_eur": 2.72,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "VoltFit",
+        "positioning": "Premium performance",
+        "channel": "Gym & Office",
+        "format": "4-pack",
+        "price_eur": 2.66,
+        "marketing_spend_index_0_100": 85
+      },
+      {
+        "competitor": "Root & Rise",
+        "positioning": "Boutique adaptogenic",
+        "channel": "DTC Online",
+        "format": "Single can (330ml)",
+        "price_eur": 3.11,
+        "marketing_spend_index_0_100": 15
+      },
+      {
+        "competitor": "Root & Rise",
+        "positioning": "Boutique adaptogenic",
+        "channel": "DTC Online",
+        "format": "4-pack",
+        "price_eur": 2.96,
+        "marketing_spend_index_0_100": 15
+      },
+      {
+        "competitor": "Root & Rise",
+        "positioning": "Boutique adaptogenic",
+        "channel": "DTC Online",
+        "format": "12-pack subscription",
+        "price_eur": 2.67,
+        "marketing_spend_index_0_100": 15
+      },
+      {
+        "competitor": "Root & Rise",
+        "positioning": "Boutique adaptogenic",
+        "channel": "Retail/Grocery",
+        "format": "Single can (330ml)",
+        "price_eur": 2.98,
+        "marketing_spend_index_0_100": 15
+      },
+      {
+        "competitor": "Root & Rise",
+        "positioning": "Boutique adaptogenic",
+        "channel": "Retail/Grocery",
+        "format": "4-pack",
+        "price_eur": 2.82,
+        "marketing_spend_index_0_100": 15
+      },
+      {
+        "competitor": "Root & Rise",
+        "positioning": "Boutique adaptogenic",
+        "channel": "Retail/Grocery",
+        "format": "12-pack subscription",
+        "price_eur": 2.54,
+        "marketing_spend_index_0_100": 15
+      }
+    ],
+    "competitor_price_history": [
+      {
+        "competitor": "PulsUp",
+        "month": "2025-09-01",
+        "list_price_eur": 1.1,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.1
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2025-10-01",
+        "list_price_eur": 1.09,
+        "promo_active": true,
+        "promo_discount_pct": 10,
+        "shelf_price_eur": 0.98
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2025-11-01",
+        "list_price_eur": 1.1,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.1
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2025-12-01",
+        "list_price_eur": 1.09,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.09
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-01-01",
+        "list_price_eur": 1.11,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.11
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-02-01",
+        "list_price_eur": 1.09,
+        "promo_active": true,
+        "promo_discount_pct": 20,
+        "shelf_price_eur": 0.87
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-03-01",
+        "list_price_eur": 1.08,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.08
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-04-01",
+        "list_price_eur": 1.1,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.1
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-05-01",
+        "list_price_eur": 1.11,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.11
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-06-01",
+        "list_price_eur": 1.08,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.08
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-07-01",
+        "list_price_eur": 1.08,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.08
+      },
+      {
+        "competitor": "PulsUp",
+        "month": "2026-08-01",
+        "list_price_eur": 1.07,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.07
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2025-09-01",
+        "list_price_eur": 1.58,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.58
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2025-10-01",
+        "list_price_eur": 1.58,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.58
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2025-11-01",
+        "list_price_eur": 1.57,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.57
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2025-12-01",
+        "list_price_eur": 1.58,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.58
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-01-01",
+        "list_price_eur": 1.57,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.57
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-02-01",
+        "list_price_eur": 1.58,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.58
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-03-01",
+        "list_price_eur": 1.6,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.6
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-04-01",
+        "list_price_eur": 1.58,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.58
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-05-01",
+        "list_price_eur": 1.58,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.58
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-06-01",
+        "list_price_eur": 1.58,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.58
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-07-01",
+        "list_price_eur": 1.58,
+        "promo_active": true,
+        "promo_discount_pct": 20,
+        "shelf_price_eur": 1.26
+      },
+      {
+        "competitor": "Mate Libre",
+        "month": "2026-08-01",
+        "list_price_eur": 1.6,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 1.6
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2025-09-01",
+        "list_price_eur": 2.4,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.4
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2025-10-01",
+        "list_price_eur": 2.39,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.39
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2025-11-01",
+        "list_price_eur": 2.38,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.38
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2025-12-01",
+        "list_price_eur": 2.39,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.39
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-01-01",
+        "list_price_eur": 2.38,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.38
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-02-01",
+        "list_price_eur": 2.41,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.41
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-03-01",
+        "list_price_eur": 2.4,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.4
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-04-01",
+        "list_price_eur": 2.38,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.38
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-05-01",
+        "list_price_eur": 2.38,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.38
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-06-01",
+        "list_price_eur": 2.4,
+        "promo_active": true,
+        "promo_discount_pct": 10,
+        "shelf_price_eur": 2.16
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-07-01",
+        "list_price_eur": 2.38,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.38
+      },
+      {
+        "competitor": "VoltFit",
+        "month": "2026-08-01",
+        "list_price_eur": 2.37,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.37
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2025-09-01",
+        "list_price_eur": 2.95,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.95
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2025-10-01",
+        "list_price_eur": 2.93,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.93
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2025-11-01",
+        "list_price_eur": 2.97,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.97
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2025-12-01",
+        "list_price_eur": 2.95,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.95
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-01-01",
+        "list_price_eur": 2.96,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.96
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-02-01",
+        "list_price_eur": 2.94,
+        "promo_active": true,
+        "promo_discount_pct": 15,
+        "shelf_price_eur": 2.5
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-03-01",
+        "list_price_eur": 2.95,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.95
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-04-01",
+        "list_price_eur": 2.97,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.97
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-05-01",
+        "list_price_eur": 2.95,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.95
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-06-01",
+        "list_price_eur": 2.94,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.94
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-07-01",
+        "list_price_eur": 2.94,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.94
+      },
+      {
+        "competitor": "Root & Rise",
+        "month": "2026-08-01",
+        "list_price_eur": 2.95,
+        "promo_active": false,
+        "promo_discount_pct": 0,
+        "shelf_price_eur": 2.95
+      }
+    ],
+    "seasonality_and_weather": [
+      {
+        "month": 1,
+        "seasonality_index_100_avg": 78,
+        "avg_temp_germany_celsius": 2
+      },
+      {
+        "month": 2,
+        "seasonality_index_100_avg": 80,
+        "avg_temp_germany_celsius": 3
+      },
+      {
+        "month": 3,
+        "seasonality_index_100_avg": 88,
+        "avg_temp_germany_celsius": 7
+      },
+      {
+        "month": 4,
+        "seasonality_index_100_avg": 98,
+        "avg_temp_germany_celsius": 11
+      },
+      {
+        "month": 5,
+        "seasonality_index_100_avg": 118,
+        "avg_temp_germany_celsius": 15
+      },
+      {
+        "month": 6,
+        "seasonality_index_100_avg": 132,
+        "avg_temp_germany_celsius": 18
+      },
+      {
+        "month": 7,
+        "seasonality_index_100_avg": 138,
+        "avg_temp_germany_celsius": 19
+      },
+      {
+        "month": 8,
+        "seasonality_index_100_avg": 128,
+        "avg_temp_germany_celsius": 19
+      },
+      {
+        "month": 9,
+        "seasonality_index_100_avg": 104,
+        "avg_temp_germany_celsius": 15
+      },
+      {
+        "month": 10,
+        "seasonality_index_100_avg": 90,
+        "avg_temp_germany_celsius": 11
+      },
+      {
+        "month": 11,
+        "seasonality_index_100_avg": 82,
+        "avg_temp_germany_celsius": 6
+      },
+      {
+        "month": 12,
+        "seasonality_index_100_avg": 84,
+        "avg_temp_germany_celsius": 3
+      }
+    ],
+    "customer_quotes": [
+      {
+        "segment": "Students & Budget-Conscious",
+        "sentiment": "positive",
+        "quote": "If it's on promo near the exam period I'll grab a pack, otherwise it's a stretch."
+      },
+      {
+        "segment": "Students & Budget-Conscious",
+        "sentiment": "negative",
+        "quote": "Honestly 2,50EUR for a can is a hard no on a student budget, whatever is inside it."
+      },
+      {
+        "segment": "Students & Budget-Conscious",
+        "sentiment": "mixed",
+        "quote": "I like the idea but I'd only buy it if my usual energy drink was sold out."
+      },
+      {
+        "segment": "Urban Wellness Professionals",
+        "sentiment": "positive",
+        "quote": "I switched most of my afternoon coffee runs to something like this, I don't mind paying more for clean ingredients."
+      },
+      {
+        "segment": "Urban Wellness Professionals",
+        "sentiment": "positive",
+        "quote": "The adaptogen angle is what gets me, not the caffeine."
+      },
+      {
+        "segment": "Urban Wellness Professionals",
+        "sentiment": "negative",
+        "quote": "Too many wellness brands taste like medicine, that's the real risk here, not the price."
+      },
+      {
+        "segment": "Fitness & Gym-Goers",
+        "sentiment": "positive",
+        "quote": "If it performs like VoltFit but tastes better I'm switching immediately."
+      },
+      {
+        "segment": "Fitness & Gym-Goers",
+        "sentiment": "mixed",
+        "quote": "I care about the caffeine source but I'm not going to overpay just for a nicer can."
+      },
+      {
+        "segment": "Fitness & Gym-Goers",
+        "sentiment": "negative",
+        "quote": "My gym already sells three energy drinks, it needs a real reason to take shelf space."
+      },
+      {
+        "segment": "On-the-go Commuters",
+        "sentiment": "positive",
+        "quote": "Grab and go is everything for me, if it's not at the kiosk near the station I'll never try it."
+      },
+      {
+        "segment": "On-the-go Commuters",
+        "sentiment": "mixed",
+        "quote": "I'd try it once out of curiosity, repeat purchase depends entirely on taste."
+      },
+      {
+        "segment": "On-the-go Commuters",
+        "sentiment": "negative",
+        "quote": "One more canned drink option at the kiosk doesn't move me, I buy on habit."
+      }
+    ],
+    "cost_breakdown": [
+      {
+        "cost_component": "Ingredients (green tea caffeine + adaptogens)",
+        "cost_per_unit_eur": 0.21,
+        "pct_of_total": 33.9
+      },
+      {
+        "cost_component": "Can & packaging",
+        "cost_per_unit_eur": 0.14,
+        "pct_of_total": 22.6
+      },
+      {
+        "cost_component": "Co-packing / production",
+        "cost_per_unit_eur": 0.15,
+        "pct_of_total": 24.2
+      },
+      {
+        "cost_component": "Freight & logistics",
+        "cost_per_unit_eur": 0.07,
+        "pct_of_total": 11.3
+      },
+      {
+        "cost_component": "Germany import duty & compliance allowance",
+        "cost_per_unit_eur": 0.05,
+        "pct_of_total": 8.1
+      },
+      {
+        "cost_component": "TOTAL COGS per unit (330ml can)",
+        "cost_per_unit_eur": 0.62,
+        "pct_of_total": 100
+      },
+      {
+        "cost_component": "[KPI, not a cost line] Current blended gross margin, home markets (avg retail EUR1.35, blended channel mix, net price EUR0.886 — see channel_economics.csv)",
+        "cost_per_unit_eur": 30,
+        "pct_of_total": ""
+      }
+    ]
+  },
+  "data_quality": [
+    {
+      "file": "historical_sales_weekly.csv",
+      "issue": "4 exact duplicate rows.",
+      "handling": "Removed before all home-market aggregates."
+    },
+    {
+      "file": "historical_sales_weekly.csv",
+      "issue": "The announced spike week is not clearly present; peaks are seasonal.",
+      "handling": "Stated as inconclusive; no spike adjustment applied."
+    },
+    {
+      "file": "historical_sales_weekly.csv",
+      "issue": "Brief says EUR3.2M trailing revenue; data totals EUR1.62M over 78 weeks.",
+      "handling": "Flagged as inconsistent; aggregates use the data."
+    },
+    {
+      "file": "customer_survey.csv",
+      "issue": "Contains first_name, last_name, and email columns.",
+      "handling": "PII fields are excluded at ingestion and no respondent rows are emitted."
+    },
+    {
+      "file": "marketing_funnel_monthly.csv",
+      "issue": "Channel LTV:CAC is 2.7–2.9x, below the brief’s 3:1 assumption.",
+      "handling": "Flagged for decision context; blended CAC is used for payback."
+    }
+  ]
+}

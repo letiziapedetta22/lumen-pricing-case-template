@@ -1,0 +1,11 @@
+{
+  "name": "lumen-germany-pricing-case",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-data.mjs",
+    "prebuild": "npm run build:data",
+    "build": "node -e \"console.log('Static site build ready')\"",
+    "test": "npm run build:data && node --test"
+  }
+}
